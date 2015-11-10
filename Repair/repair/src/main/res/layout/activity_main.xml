@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="我的任务"
+        f1:leftImage="@drawable/ic_title_menu"
+        f1:rightImage1="@drawable/ic_right_menu"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

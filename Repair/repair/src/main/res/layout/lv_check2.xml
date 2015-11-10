@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:padding="@dimen/x10"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="@dimen/x80"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/x22"
+        android:id="@+id/tv1"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="@dimen/x130"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="日期"
+        android:id="@+id/tv2"
+        android:textSize="@dimen/x22"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="@dimen/x150"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="任务"
+        android:textSize="@dimen/x22"
+        android:id="@+id/tv3"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="@dimen/x190"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv4"
+        android:textSize="@dimen/x22"
+        android:text="待点检设备总数"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="@dimen/x190"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="待点检项目总数"
+        android:textSize="@dimen/x22"
+        android:id="@+id/tv5"
+        android:layout_gravity="center_vertical"
+        />
+    <com.jb.repair.view.IconFontTextView
+        android:layout_width="@dimen/x30"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv6"
+        android:textSize="@dimen/x18"
+        android:textColor="@color/gray"
+        android:text="@string/icon_arrow_right"
+        android:layout_gravity="center_vertical"
+        />
+
+
+</LinearLayout>

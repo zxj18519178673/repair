@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="缺陷登记"
+        f1:rightText="保存"
+        f1:leftImage="@drawable/ico_left" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/x80"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="设备名称："
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="@dimen/x500"
+                android:id="@+id/tv1"
+                android:text="1号机"
+                android:padding="@dimen/x10"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="巡检项目："
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="@dimen/x500"
+                android:id="@+id/tv2"
+                android:text="压板"
+                android:padding="@dimen/x10"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="缺陷发生时间："
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="@dimen/x500"
+                android:id="@+id/tv3"
+                android:text="2015.1.1"
+                android:padding="@dimen/x10"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/y10"
+                android:text="缺陷等级:"
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />s
+            <Spinner
+                android:layout_width="@dimen/x500"
+                android:id="@+id/sp1"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/y10"
+                android:text="缺陷类型:"
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />s
+            <Spinner
+                android:layout_width="@dimen/x500"
+                android:id="@+id/sp2"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/ll_tv5"
+                android:text="缺陷说明："
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="@dimen/x500"
+                android:id="@+id/ll_tv6"
+                android:padding="@dimen/x10"
+                android:lines="3"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:background="@color/white_font"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="附件:"
+                android:gravity="right"
+                android:textSize="@dimen/ledger_info_textsize"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="@dimen/x500"
+                android:id="@+id/ll_fujian"
+                android:layout_height="@dimen/x150"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/iv_iv"
+                    android:layout_gravity="left"
+                    android:background="@drawable/fujian"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

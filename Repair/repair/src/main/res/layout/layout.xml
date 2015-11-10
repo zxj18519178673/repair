@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/x200"
+    android:gravity="center"
+    android:layout_height="@dimen/y100"
+    android:background="@color/title_bg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_local"
+        android:padding="@dimen/x10"
+        android:gravity="center"
+        android:textColor="@color/white_font"
+        android:text="本地上传"
+        android:layout_height="wrap_content"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_camera"
+        android:gravity="center"
+        android:padding="@dimen/x10"
+        android:textColor="@color/white_font"
+        android:text="拍照"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    >
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="巡点检移动平台"
+        f1:leftImage="@string/icon_arrow_down"
+        f1:rightImage1="@drawable/icon_setting"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/x200"
+        android:layout_marginTop="@dimen/y150"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="@dimen/x400"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/x300"
+                android:src="@drawable/icon"
+                android:id="@+id/icon"
+                android:layout_marginLeft="@dimen/x35"
+                android:scaleType="fitXY"
+                android:layout_height="@dimen/y280" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="账号："
+                    android:textColor="@color/black_text"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/tv_name"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/x350"
+                android:layout_marginLeft="@dimen/x80"
+                android:layout_height="@dimen/line_height"
+
+                android:background="@color/gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="密码："
+
+                    android:textColor="@color/black_text"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:id="@+id/tv_pass"
+                    android:background="@null"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="@dimen/x350"
+                android:layout_marginLeft="@dimen/x80"
+                android:layout_height="@dimen/line_height"
+                android:background="@color/gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:text="记住密码"
+                    android:textSize="@dimen/x20"
+                    android:id="@+id/ck_pass"
+                    android:layout_height="wrap_content" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:text="自动登录"
+                    android:layout_marginLeft="@dimen/x50"
+                    android:id="@+id/ck_auto"
+                    android:textSize="@dimen/x20"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/y20"
+                android:background="@drawable/textview_selected"
+                android:text="登录"
+                android:id="@+id/tv_login"
+                android:gravity="center"
+                android:textSize="@dimen/y50"
+                android:textColor="@color/white_font"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

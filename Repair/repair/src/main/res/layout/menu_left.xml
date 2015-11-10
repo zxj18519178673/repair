@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_font"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/x60"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="王小明"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height2"
+        android:background="@color/grag_line"/>
+
+    <LinearLayout
+        android:id="@+id/ll_task"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_task"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="我的任务"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_ledger"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ledger"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="设备台账"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_inspection"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100px"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:gravity="center_vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_eye"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/leftmenu_textsize"-->
+            <!--android:text="巡检"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/line_height"-->
+        <!--android:background="@color/grag_line"/>-->
+
+    <LinearLayout
+        android:id="@+id/ll_check"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="点检"/>
+
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/line_height"-->
+        <!--android:background="@color/grag_line"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_doc"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100px"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:gravity="center_vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_doc"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/leftmenu_textsize"-->
+            <!--android:text="文档"/>-->
+
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+    <LinearLayout
+        android:id="@+id/ll_setting"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_setting"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="设置"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+    <LinearLayout
+        android:id="@+id/ll_exit"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_exit"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/leftmenu_textsize"
+            android:text="退出"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+</LinearLayout>

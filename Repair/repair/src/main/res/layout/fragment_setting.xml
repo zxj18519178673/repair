@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.jb.repair.setting.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/y20"
+            android:padding="@dimen/y20"
+            android:background="@color/white_font"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_clean"
+                android:text="清除缓存"
+                android:layout_marginLeft="@dimen/x5"
+                />
+            <com.jb.repair.view.IconFontTextView
+                android:layout_width="@dimen/x30"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="8dp"
+                android:textColor="@color/gray"
+                android:text="@string/icon_arrow_right"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/y20"
+            android:padding="@dimen/y20"
+            android:background="@color/white_font"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="关于"
+                android:id="@+id/tv_about"
+                android:layout_marginLeft="@dimen/x5"
+                />
+            <com.jb.repair.view.IconFontTextView
+                android:layout_width="@dimen/x30"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="8dp"
+                android:textColor="@color/gray"
+                android:text="@string/icon_arrow_right"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

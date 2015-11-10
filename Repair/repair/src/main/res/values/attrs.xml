@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- hintText -->
+    <attr name="hint" format="string|reference"></attr>
+    <!-- hintColor -->
+    <attr name="textColorHint" format="color|reference"></attr>
+    <attr name="title" format="string|reference"></attr>
+
+
+    <declare-styleable name="TitleView">
+        <!-- 左边的图片 -->
+        <attr name="leftImage" format="reference"></attr>
+        <!-- 左边的图片大小 -->
+        <attr name="leftImage_size" format="dimension|reference"></attr>
+        <!-- 左边的图片颜色 -->
+        <attr name="leftImage_color" format="color|reference"></attr>
+        <!-- 左边的文本属性 -->
+        <attr name="leftText" format="string|reference" />
+        <!-- 左边的文本大小 -->
+        <attr name="leftText_size" format="dimension|reference"></attr>
+        <!-- 左边的字体颜色 -->
+        <attr name="leftText_color" format="color|reference"></attr>
+        <!-- 中间标题 -->
+        <attr name="title"></attr>
+        <!-- 中间标题大小 -->
+        <attr name="title_size" format="dimension|reference"></attr>
+        <!-- 中间标题颜色 -->
+        <attr name="title_color" format="color|reference"></attr>
+        <!-- 右边的图片1 -->
+        <attr name="rightImage1" format="reference"></attr>
+        <!-- 右边的图片1大小 -->
+        <attr name="rightImage1_size" format="dimension|reference"></attr>
+        <!-- 右边的图片1颜色 -->
+        <attr name="rightImage1_color" format="color|reference"></attr>
+        <!-- 右边的图片2 -->
+        <attr name="rightImage2" format="reference"></attr>
+        <!-- 右边的图片2大小 -->
+        <attr name="rightImage2_size" format="dimension|reference"></attr>
+        <!-- 右边的图片2颜色 -->
+        <attr name="rightImage2_color" format="color|reference"></attr>
+        <!-- 右边的文本属性 -->
+        <attr name="rightText" format="string|reference" />
+        <!-- 右边的文本属性 -->
+        <attr name="rightText2" format="string|reference" />
+        <!-- 右边的文本大小 -->
+        <attr name="rigthText_size" format="dimension|reference" />
+        <!-- 右边的文本颜色 -->
+        <attr name="rigthText_color" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="listview">
+        <!-- listView分页大小 -->
+        <attr name="pageSize" format="integer"></attr>
+        <!-- 底部刷新视图 -->
+        <attr name="footer_refresh_view" format="reference"></attr>
+        <!-- 是否启用下拉刷新功能 -->
+        <attr name="enable_auto_refresh" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridView">
+        <!-- 分页大小 -->
+        <attr name="pageSize"></attr>
+        <!-- 每行显示个数 -->
+        <attr name="numColumns" format="integer"></attr>
+        <!-- 项目宽度 -->
+        <attr name="columnWidth" format="dimension|reference"></attr>
+        <!-- 项目高度 -->
+        <attr name="columnHeight" format="dimension|reference"></attr>
+        <!-- 项目水平间距 -->
+        <attr name="horizontalSpacing" format="dimension|reference"></attr>
+        <!-- 项目垂直间距 -->
+        <attr name="verticalSpacing" format="dimension|reference"></attr>
+        <!-- 图标尺寸 -->
+        <attr name="iconSize" format="dimension|reference"></attr>
+        <!-- 图标文字间距 -->
+        <attr name="iconSpacing" format="dimension|reference"></attr>
+        <!-- 文字大小 -->
+        <attr name="textSize"></attr>
+        <!-- 文字颜色 -->
+        <attr name="textColor"></attr>
+        <!-- 项目背景颜色 -->
+        <attr name="backgroundColor" format="color|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomElement">
+        <!-- 表单必填 -->
+        <attr name="required" format="boolean|reference"></attr>
+        <!-- 表单标签 -->
+        <attr name="label" format="string|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomSelectElement">
+        <!-- 下拉列表选项 -->
+        <attr name="option" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextAreaElement">
+        <!-- 文本域最大长度 -->
+        <attr name="length" format="integer|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioGroupElement">
+        <!-- 单选按钮组方向 -->
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomSwitchElement">
+        <!-- 开关状态 -->
+        <attr name="checked" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="spinner">
+        <!-- hintText -->
+        <attr name="hint"></attr>
+        <!-- hintColor -->
+        <attr name="textColorHint"></attr>
+        <!-- TextSize -->
+        <attr name="textSize" format="dimension|reference"></attr>
+        <!-- TextColor -->
+        <attr name="textColor" format="color|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="pickcontacts">
+        <!-- hintText -->
+        <attr name="hint"></attr>
+        <!-- hintColor -->
+        <attr name="textColorHint"></attr>
+        <!-- 子项的背景色 -->
+        <attr name="itemColor" format="color|reference"></attr>
+        <!-- 字体大小 -->
+        <attr name="textSize"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeListView">
+        <attr name="swipeOpenOnLongPress" format="boolean" />
+        <attr name="swipeAnimationTime" format="integer" />
+        <attr name="swipeOffsetLeft" format="dimension" />
+        <attr name="swipeOffsetRight" format="dimension" />
+        <attr name="swipeCloseAllItemsWhenMoveList" format="boolean" />
+        <attr name="swipeFrontView" format="reference" />
+        <attr name="swipeBackView" format="reference" />
+        <attr name="swipeMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="both" value="1" />
+            <enum name="right" value="2" />
+            <enum name="left" value="3" />
+        </attr>
+        <attr name="swipeActionLeft" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+            <enum name="choice" value="2" />
+        </attr>
+        <attr name="swipeActionRight" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+            <enum name="choice" value="2" />
+        </attr>
+        <attr name="swipeDrawableChecked" format="reference" />
+        <attr name="swipeDrawableUnchecked" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AttriTextView">
+        <attr name="key" format="string"/>
+        <attr name="value" format="string"/>
+        <attr name="isImp" format="boolean"/>
+        <attr name="hasline" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="InfoTextView">
+        <attr name="text1" format="string"/>
+        <attr name="text2" format="string" />
+        <attr name="isImg" format="boolean" />
+        <attr name="imgUri" format="string" />
+        <attr name="isdoc" format="boolean" />
+    </declare-styleable>
+
+</resources>

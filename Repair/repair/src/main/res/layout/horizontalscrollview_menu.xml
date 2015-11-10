@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y15"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_selected"
+                android:text="设备信息"
+                android:textColor="@color/white_font"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_belong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="附属设备"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="备用设备"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="设备资料"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_abnormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="异常记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_defect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="缺陷记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_repair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="检修记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="动作记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_import"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="投退记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+
+            <TextView
+                android:id="@+id/tv_yidong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_unselet"
+                android:text="异动记录"
+                android:textSize="@dimen/horizontalscrollview_textsize" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

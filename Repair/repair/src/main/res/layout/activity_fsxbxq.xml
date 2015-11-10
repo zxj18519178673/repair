@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="附属设备详情"
+        f1:leftImage="@drawable/ico_left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/x80">
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="附属设备名称"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="设备型号"
+            f1:text2="UUUUU123"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_factory"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="生产厂家"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="数量"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_run_time"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="投运日期"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_main_param"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="主要参数"
+            f1:text2="1号轴承"/>
+
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_img"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="设备图片"
+            f1:isImg="true"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

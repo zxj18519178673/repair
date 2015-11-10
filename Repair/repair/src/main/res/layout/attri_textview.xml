@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/x40"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_imp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_imp"/>
+
+    <TextView
+        android:id="@+id/tv_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/horizontalscrollview_textsize"
+        android:text="电厂:"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x10"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/horizontalscrollview_textsize"
+            android:text="张家口发电"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="@dimen/x200"
+            android:layout_height="1dp"
+            android:background="#AECAF0"/>
+    </LinearLayout>
+
+
+</LinearLayout>

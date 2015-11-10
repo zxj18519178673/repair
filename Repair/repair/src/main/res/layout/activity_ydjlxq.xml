@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="异动记录详情"
+        f1:leftImage="@string/icon_arrow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/x80">
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_change_time"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="异动时间"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_change_reason"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="异动原因"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_change_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="异动内容"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_people"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="负责人"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_change_report"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:isdoc="true"
+            f1:text1="异动报告"
+            f1:text2="1号轴承"/>
+</LinearLayout>
+</LinearLayout>

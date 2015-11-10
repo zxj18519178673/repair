@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="异常记录详情"
+        f1:leftImage="@string/icon_arrow" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/x80"
+        android:layout_height="wrap_content">
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_begin_time"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="异常发生时间"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_deal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="处理方式"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_people"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="负责人"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_deal_time"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="处理时间"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_exception_info"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:text1="异常说明"
+            f1:text2="1号轴承"/>
+        <com.jb.repair.view.InfoTextView
+            android:id="@+id/tv_report"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_height="wrap_content"
+            f1:isdoc="true"
+            f1:text1="异常分析报告"
+            f1:text2="1号轴承"/>
+
+    </LinearLayout>
+
+</LinearLayout>

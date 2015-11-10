@@ -1,0 +1,79 @@
+<resources>
+
+    <dimen name="Leftmenu_item_height">@dimen/y80</dimen>
+    <dimen name="line_height2">@dimen/y3</dimen>
+    <dimen name="line_height">@dimen/y2</dimen>
+    <dimen name="content_height">@dimen/y90</dimen>
+    <dimen name="item_height">@dimen/y60</dimen>
+    <dimen name="title_height">@dimen/y70</dimen>
+
+
+
+    <dimen name="leftmenu_left_margin">15dp</dimen>
+    <dimen name="margin_top">@dimen/y10</dimen>
+    <dimen name="margin_left">@dimen/y20</dimen>
+
+    <dimen name="horizontalscrollview_textsize">@dimen/x18</dimen>
+    <dimen name="ledger_info_textsize">@dimen/x20</dimen>
+    <dimen name="leftmenu_textsize">@dimen/x24</dimen>
+    <dimen name="main_title_textsize">@dimen/x20</dimen>
+    <dimen name="main_item_textsize">@dimen/x15</dimen>
+    <dimen name="detail_textSize">@dimen/x20</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_margin">@dimen/y25</dimen>
+    <dimen name="second_title_margin">@dimen/y440</dimen>
+    <dimen name="content_title_height">@dimen/y81</dimen>
+    <dimen name="content_title_margin">10px</dimen>
+    <dimen name="title_textSize">@dimen/x28</dimen>
+    <dimen name="content_title_textSize">@dimen/x24</dimen>
+    <dimen name="date_textSize">10sp</dimen>
+    <dimen name="nav_textSize">@dimen/x14</dimen>
+    <dimen name="nav_height">@dimen/y90</dimen>
+    <dimen name="search_height">@dimen/y60</dimen>
+    <dimen name="divider">1px</dimen>
+    <!-- 登录界面 -->
+    <dimen name="login_padding">16dp</dimen>
+    <dimen name="login_title_textSize">16sp</dimen>
+    <dimen name="login_width">330dp</dimen>
+    <dimen name="login_title_height">45dp</dimen>
+    <dimen name="login_content_height">235dp</dimen>
+    <!-- 主界面 -->
+    <dimen name="message_content_textSize">12sp</dimen>
+    <dimen name="message_title_textSize">18sp</dimen>
+    <dimen name="task_title_textSize">20sp</dimen>
+    <dimen name="task_item_content_textSize">12sp</dimen>
+    <dimen name="task_item_title_textSize">18sp</dimen>
+    <!-- 九宫格布局中GridView参数设置，为了使子项充满屏幕 -->
+    <dimen name="gridview_verticalSpace">50dp</dimen>
+    <dimen name="gridview_padding_top">20dp</dimen>
+    <dimen name="gridview_padding_bottom">20dp</dimen>
+    <dimen name="gridview_padding_left">20dp</dimen>
+    <dimen name="gridview_padding_right">20dp</dimen>
+    <dimen name="menu_item_image_width">65dp</dimen>
+    <dimen name="menu_item_textSize">15sp</dimen>
+    <!-- 待办任务详情界面 -->
+    <dimen name="task_detail_shoujianren">15sp</dimen>
+    <dimen name="task_detail_title">16sp</dimen>
+    <dimen name="task_detail_datetime">12sp</dimen>
+    <dimen name="task_detail_content">15sp</dimen>
+    <dimen name="task_detail_advice">20sp</dimen>
+    <dimen name="task_detail_send">20sp</dimen>
+    <!-- 系统设置 -->
+    <dimen name="system_setting_textSize">20sp</dimen>
+    <!-- 登录设置对话框 -->
+    <dimen name="login_setting_tip">14sp</dimen>
+    <dimen name="login_setting_nodename">6sp</dimen>
+    <dimen name="login_setting_text">12sp</dimen>
+    <dimen name="login_setting_height">180dp</dimen>
+    <dimen name="login_setting_footer_height">50dp</dimen>
+    <dimen name="login__setting_padding">11dp</dimen>
+
+    <!--工程界面-->
+    <dimen name="project_sort">16sp</dimen>
+    <dimen name="project_more">@dimen/x20</dimen>
+    <dimen name="project_name">14sp</dimen>
+
+</resources>

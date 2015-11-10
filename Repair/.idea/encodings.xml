@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/LoginActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/check/activity/BugRigsterActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/nfc/NdefMessageParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/nfc/NdefViewer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/nfc/TagViewer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/nfc/simulator/FakeTagsActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/nfc/simulator/MockNdefMessages.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repair/src/main/java/com/jb/repair/setting/ConfigActivity.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

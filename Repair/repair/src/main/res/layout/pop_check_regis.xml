@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x200"
+    android:layout_height="@dimen/y100"
+    android:background="@color/title_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_loc_equip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x10"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/x35"
+            android:layout_height="@dimen/y35"
+            android:src="@drawable/ic_srarch"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="快速定位设备"
+        android:layout_marginLeft="@dimen/x10"
+        android:textSize="@dimen/x20"
+        android:gravity="center_vertical"
+        android:textColor="@color/white_font"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/grag_line"/>
+
+    <LinearLayout
+        android:layout_margin="@dimen/x10"
+        android:id="@+id/ll_batch_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/x35"
+            android:layout_height="@dimen/y35"
+            android:src="@drawable/ic_regis"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="批量登记结果"
+            android:layout_marginLeft="@dimen/x10"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/x20"
+            android:textColor="@color/white_font"/>
+    </LinearLayout>
+
+</LinearLayout>

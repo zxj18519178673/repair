@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_font"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#CCCCCC"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y60"
+        android:paddingBottom="10px"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingTop="10px" >
+
+        <com.jb.repair.view.IconFontEditText
+            android:background="@drawable/search_view_bg"
+            android:id="@+id/search_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20px"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/detail_textSize"
+            android:hint="&#xe658;搜索" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

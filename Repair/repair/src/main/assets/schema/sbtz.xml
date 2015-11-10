@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table name="TB_DEV_HD_SBTZ" >
+
+    <column
+        name="SSDC"
+        caption="所属电厂"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="ZY"
+        caption="专业"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="JZ"
+        caption="机组"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="XT"
+        caption="系统"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SBMC"
+        caption="设备名称"
+        isHidden="false"
+        isMulti="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText"
+        userFilter="" >
+    </column>
+
+    <column
+        name="SSPG"
+        caption="所属屏柜"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SBLX"
+        caption="设备类型"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SBXH"
+        caption="设备型号"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SCCJ"
+        caption="生产厂家"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="AZWZ"
+        caption="安装位置"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SJSM"
+        caption="设计寿命"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="SCRQ"
+        caption="生产日期"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="TYRQ"
+        caption="投运日期"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+</table>

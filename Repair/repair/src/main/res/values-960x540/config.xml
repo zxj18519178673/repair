@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 服务端默认地址，可以在登录界面的配置项配置 -->
+    <string name="server_address">""</string>
+    <!-- 消息推送默认使用的端口号 -->
+    <string name="config_MessagePort">59939</string>
+    <!--数据库路径-->
+    <string name="db_name">joinbright.db</string>
+
+    <!-- 应用自动更新模块 -->
+    <string name="config_appManger_appId">D1C43923-9244-45C0-A082-344F6FF8D26F</string>
+    <string name="config_appManger_clsId">07F5F2B4-5049-4E95-916A-96D36906F2E7</string>
+
+
+    <!--是否启用自动更新-->
+    <item name="auto_update" format="boolean" type="bool">true</item>
+    <!--是否启用消息推送-->
+    <item name="pull_msg" format="boolean" type="bool">true</item>
+    <!--是否启用debug模式-->
+    <item name="debug_mode" format="boolean" type="bool">false</item>
+    <!-- 网络访问超时时间单位为秒 -->
+    <item name="socket_timeOut" format="integer" type="integer">8</item>
+    <!--是否启用动态模型-->
+    <bool name="dynamic_model">true</bool>
+
+</resources>

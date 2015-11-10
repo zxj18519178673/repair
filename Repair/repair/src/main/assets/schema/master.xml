@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table name="TB_DEV_HD_SBTZ" >
+
+    <column
+        name="SSDC"
+        caption="所属电厂"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="SingleEditText" >
+    </column>
+
+    <column
+        name="ZY"
+        caption="专业"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="MultilineEditText" >
+    </column>
+
+    <column
+        name="JZ"
+        caption="机组"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="IntegerEditText" >
+    </column>
+
+    <column
+        name="XT"
+        caption="系统"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="CheckBox" >
+    </column>
+
+    <column
+        name="SBMC"
+        sql="select guid,name from table "
+        caption="设备名称"
+        isHidden="false"
+        isMulti="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="ComboBox"
+        userFilter="guid='aaa' " >
+    </column>
+
+    <column
+        name="SSPG"
+        caption="所属屏柜"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="Date" >
+    </column>
+
+    <column
+        name="SBLX"
+        caption="设备类型"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false"
+        type="DecimalEditText" >
+    </column>
+
+    <column
+        name="SBXH"
+        caption="设备型号"
+        isHidden="false"
+        isNullAble="true"
+        isReadOnly="false" 
+        type="FileSystem" >
+    </column>
+
+</table>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_font"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_equip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="1号机组→6kv系统→1A循环水泵开关柜"
+        android:textSize="@dimen/x24" />
+
+    <include layout="@layout/horizontalscrollview_menu" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x10"
+        android:background="@drawable/dotted_line" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll_equip_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_dianchang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="电厂" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_jizu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="机组" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_azwz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="安装位置" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sblx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="设备类型" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sccj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="生产厂家" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_scrq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="生产日期" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_yxzt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="运行状态" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_bfjyzq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="部分检验周期" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_tdlx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="通道类型" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_kks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="KKS编码" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_zhuanye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="专业" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sbmc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="设备名称" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sspg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="所属屏柜" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sbxh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="设备型号" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_sjsm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="设计寿命" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_tyrq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="投运日期" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_qbjyzq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="全部检验周期" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_dydj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:key="电压等级" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_ycsb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="一次设备" />
+                    <com.jb.repair.view.AttriTextView
+                        android:id="@+id/tv_zrr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:isImp="false"
+                        app:key="责任人" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_fushushebei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_beiyongshebei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_shebeiziliao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_yichangjilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_quexianjilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_jianxiujilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_dongzuojilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_toutuijilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginTop="@dimen/x15"
+                android:background="@color/title_bg"/>
+
+            <com.jb.repair.view.ListViewInScroll
+                android:id="@+id/lv_yidongjilu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

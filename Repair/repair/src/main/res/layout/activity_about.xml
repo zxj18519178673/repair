@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+    <com.jb.repair.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        f1:title="关于"
+        f1:leftImage="@drawable/ico_left" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="@dimen/x300"
+            android:src="@drawable/icon"
+            android:id="@+id/icon"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+
+            android:layout_height="@dimen/y280" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="移动巡点检平台 v1.0"
+            android:layout_marginTop="@dimen/y20"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/detail_textSize"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/icon"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/y100"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="中恒瑞翔  版权所有"
+            android:textSize="@dimen/date_textSize"
+            android:textColor="@color/gray"
+            android:id="@+id/tv_copyright"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y30"
+            android:id="@+id/tv_en"
+            android:layout_below="@id/tv_copyright"
+            android:text="Copyright © 2015 JoinShine Inc.All Rights Reserved."
+            android:textSize="@dimen/date_textSize"
+            android:textColor="@color/gray"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

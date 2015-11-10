@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x4"
+        android:background="@drawable/dotted_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/y200"
+        android:background="@color/gray_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/y10"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/y10"
+            android:background="@color/white_font"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_equip_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:textSize="@dimen/main_title_textsize"
+                android:layout_marginTop="@dimen/y15"
+                android:text="1、2号机电气电子间" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="8">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_marginTop="@dimen/y10"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.jb.repair.view.AttriTextView
+                            android:id="@+id/tv_equip_total"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            f1:isImp="false"
+                            f1:hasline="false"
+                            f1:key="设备总数"
+                            f1:value="0"/>
+                        <com.jb.repair.view.AttriTextView
+                            android:id="@+id/tv_equip_checked_num"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            f1:isImp="false"
+                            f1:hasline="false"
+                            f1:key="已点检项目数"
+                            f1:value="0"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_marginTop="@dimen/y10"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.jb.repair.view.AttriTextView
+                            android:id="@+id/tv_item_total"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            f1:isImp="false"
+                            f1:hasline="false"
+                            f1:key="项目总数"
+                            f1:value="0"/>
+                        <com.jb.repair.view.AttriTextView
+                            android:id="@+id/tv_equip_abnormal_num"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            f1:isImp="false"
+                            f1:hasline="false"
+                            f1:key="异常项目数"
+                            f1:value="0"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.jb.repair.view.IconFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/y20"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/main_title_textsize"
+                    android:text="@string/icon_arrow_right"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

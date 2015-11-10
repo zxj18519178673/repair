@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">repair</string>
+
+    <!-- 图标字体相关 -->
+    <string name="icon_cross">&#xe61d; </string>
+    <string name="icon_user">&#xe665;</string>
+    <string name="icon_lock">&#xe639;</string>
+    <string name="icon_menu">&#xe63c;</string>
+    <string name="icon_task">&#xe647;</string>
+    <string name="icon_message">&#xe643;</string>
+    <string name="icon_setting">&#xe65a;</string>
+    <string name="icon_plus">&#xe649;</string>
+    <string name="icon_arrow_right">&#xe607;</string>
+    <string name="icon_arrow_left">&#xe605;</string>
+    <string name="icon_arrow_up">&#xe60a;</string>
+    <string name="icon_arrow_down">&#xe603;</string>
+    <string name="icon_plus_circle">&#xe64a;</string>
+    <string name="icon_main">&#xe667;</string>
+    <string name="icon_file">&#xe657;</string>
+    <string name="icon_photo">&#xe631;</string>
+    <string name="icon_camera">&#xe611;</string>
+    <string name="icon_folder">&#xe657;</string>
+    <string name="icon_pdf">&#xe628;</string>
+    <string name="icon_txt">&#xe62a;</string>
+    <string name="icon_doc">&#xe62b;</string>
+    <string name="icon_zip">&#xe62d;</string>
+    <string name="icon_image">&#xe631;</string>
+    <string name="icon_others">&#xe64e;</string>
+    <string name="icon_refresh">&#xe652;</string>
+    <string name="icon_calendar">&#xe610;</string>
+    <string name="icon_arrow">&#xe601;</string>
+    <string name="icon_search">&#xe658;</string>
+
+    <!-- The title of the NFC tag application -->
+    <string name="app_name1">NFCDemo</string>
+
+    <!-- The title for the activity that shows a tag that was just scanned -->
+    <string name="title_scanned_tag">New tag collected</string>
+
+    <!-- Heading for the text of the content in the "my tag" feature. -->
+    <string name="tag_text">Text</string>
+    <string name="title_activity_ndef_viewer">NdefViewer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_config">ConfigActivity</string>
+
+</resources>
